@@ -3,6 +3,9 @@
 ## Content
 - [Abstract](#index1)
 - [Dataset](#index2)
+- [EDA&Data Preprocessing](#index3)
+- [Feature Selection Method](#index4)
+- [Predictive Models](#index5)
 
 ## <span id='index1'>Abstract</span>
 
@@ -14,4 +17,26 @@ The MIMIC(**M**edical **I**nformation **M**art for **I**ntensive **C**are IV) da
 
 For this project, we will use a pre-extracted dataset of the MIMIC-IV. It contains totally `36489` patient healthcare records with `60` indicators. The pre-extracted dataset can be found at `./dataset/MIMIC_IV.csv`.
 
-## 
+## <span id='index3'>EDA&Data Preprocessing</span>
+
+For this part, I take several steps to look into the basic information of the dataset and applied several methods for data preprocessing.
+
+These several steps include:
+1. Check which features are include in the dataset.
+2. Check the ratio of the `True` label to `False` label. (From this step, we noticed the dataset is **imbalanced**, therefore oversampling should be applied to the dataset to avoid overfitting)
+3. Check the ratio of missing values in each column. (For column with over `80%` missing values, we directly remove it from the dataset since it cannot provide much information for the models)
+4. Calculate the correlation between each feature. (Remove columns with over `95%` correlations to reduce the number of features)
+5. Use visualizations to check the distribution of each features. (Most of the features are not in normal distribution, which means that it will be better to use median values to replace the missing values instead of using mean values)
+
+## <span id='index4'>Feature Selection Method</span>
+To further reduce the number of features used for the training of predictive models, I applied the **Genetic Algorithm** for the feature selection of each predictive model separately. Some important parameters set for the GA is: `population_size = 30`, `generations = 40`.
+For each predictive model I recorded the `20` times accuracy score before and after feature selection to compare the performance.
+
+## <span id='index5'>Predictive Models</span>
+
+In this part, we train three predictive models for the prediction:
+- Logistic Regression
+- Decision Tree
+- Random Forest
+
+For each model, I replace the missing values with `mean` and `median` values respectively to create two dataset and train the model based on each dataset. Besides, since in the EDA part we noticed that the data is **imbalanced**, I also applied `SMOTE`(Synthetic Minority Oversampling Technique) to oversample the data to balance the number of `True` label and `False` label.
