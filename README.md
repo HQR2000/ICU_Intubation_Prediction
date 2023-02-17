@@ -1,6 +1,6 @@
 # ICU Intubation Prediction
 
-![img1]()
+![img1](https://github.com/HQR2000/ICU_Intubation_Prediction/blob/main/public/img1.png)
 
 ## Content
 - [Abstract](#index1)
