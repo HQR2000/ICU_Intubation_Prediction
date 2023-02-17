@@ -1,8 +1,8 @@
 # ICU Intubation Prediction
 
-**Content**
-1. [Abstract](#index1)
-2. [Dataset](#index2)
+## Content
+- [Abstract](#index1)
+- [Dataset](#index2)
 
 ## <span id='index1'>Abstract</span>
 
