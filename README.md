@@ -11,7 +11,7 @@
 
 ## <span id='index1'>Abstract</span>
 
-This project aims at estimating the patient's chance of intubation in the Intensive Care Unit(ICU) based on machine learning models. Before applying the machine learning models for the prediction, an exploratory data analysis is done to gain insights of the dataset. Then data preprocessing and feature selection methods are used to enhance the usability of the dataset. Three machine learning models are then trained for the prediction, including **Logistic Regression**, **Decision Tree** and **Random Forest**.
+This project aims at estimating the patient's chance of intubation in the Intensive Care Unit(ICU) based on machine learning models. Before applying the machine learning models for the prediction, an exploratory data analysis is done to gain insights of the dataset. Then data preprocessing and feature selection methods are used to enhance the usability of the dataset. Three machine learning models are then trained for the prediction, including **Logistic Regression**, **Decision Tree** and **Random Forest**. The complete code of the project can be found in `./code/ICU_Intubation_Prediction.ipynb`.
 
 ## <span id='index1'>Dataset</span>
 
