@@ -8,6 +8,7 @@
 - [EDA&Data Preprocessing](#index3)
 - [Feature Selection Method](#index4)
 - [Predictive Models](#index5)
+- [Result Analysis](#index6)
 
 ## <span id='index1'>Abstract</span>
 
@@ -32,7 +33,7 @@ These several steps include:
 
 ## <span id='index4'>Feature Selection Method</span>
 To further reduce the number of features used for the training of predictive models, I applied the **Genetic Algorithm** for the feature selection of each predictive model separately. Some important parameters set for the GA is: `population_size = 30`, `generations = 40`.
-For each predictive model I recorded the `20` times accuracy score before and after feature selection to compare the performance.
+For each predictive model I recorded the `20` times accuracy score before and after feature selection to compare the performance. Besides, I also generated the confusion matrix of each model to make sure that the oversampling method works properly to help avoid overfitting.
 
 ## <span id='index5'>Predictive Models</span>
 
@@ -42,3 +43,5 @@ In this part, we train three predictive models for the prediction:
 - Random Forest
 
 For each model, I replace the missing values with `mean` and `median` values respectively to create two dataset and train the model based on each dataset. Besides, since in the EDA part we noticed that the data is **imbalanced**, I also applied `SMOTE`(Synthetic Minority Oversampling Technique) to oversample the data to balance the number of `True` label and `False` label.
+
+## <span id='index6'>Result Analysis</span>
