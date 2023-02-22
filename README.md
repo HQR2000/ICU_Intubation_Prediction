@@ -58,13 +58,13 @@ The visualizations includes:
 
 Base on the overall accuracy score and mean accuracy score of all the models, we can come up with which is the best model for predicting the patient's chance of intubation in ICU. With the standard deviation of the accuracy score all the models, we can analyze which model has a better stablity when dealing with different data.
 
-Here are the visualization results for the comparison of all the models:
+### Visualizations
 
 ![Comparison1](https://github.com/HQR2000/ICU_Intubation_Prediction/blob/main/results/comparison1.png)
 
 ![Comparison2](https://github.com/HQR2000/ICU_Intubation_Prediction/blob/main/results/comparison2.png)
 
-Here are the mean accuracy score for the comparison of all the models in table form:
+### Tables
 
 **Mean accuracy of the models filled the missing value with _mean_ value:**
 
@@ -98,4 +98,4 @@ Here are the mean accuracy score for the comparison of all the models in table f
 | `Decision Tree`      | 0.01                                             | 0.03                                              |
 | `Random Forest`      | 0.00                                             | 0.01                                              |
 
-
+(The visualization results can be found in `./results` or in `./code/ICU_Intubation_Prediction.ipynb`)
