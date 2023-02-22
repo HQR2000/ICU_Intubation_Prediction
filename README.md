@@ -55,5 +55,16 @@ The visualizations includes the overall accuracy score of all the models, the me
 
 Here are the visualization results for the comparison of all the models:
 
+Overall Comparison of Models Filled Missing Values with Mean Value
+
+[Comparison1]()
+
+Overall Comparison of Models Filled Missing Values with Median Value
+
+[Comparison2]()
+
+Here are the mean accuracy score for the comparison of all the models in table form:
+
+
 
 
