@@ -55,16 +55,43 @@ The visualizations includes the overall accuracy score of all the models, the me
 
 Here are the visualization results for the comparison of all the models:
 
-Overall Comparison of Models Filled Missing Values with Mean Value
-
 ![Comparison1](https://github.com/HQR2000/ICU_Intubation_Prediction/blob/main/results/comparison1.png)
 
-Overall Comparison of Models Filled Missing Values with Median Value
 
 ![Comparison2](https://github.com/HQR2000/ICU_Intubation_Prediction/blob/main/results/comparison2.png)
 
 Here are the mean accuracy score for the comparison of all the models in table form:
 
+Mean accuracy of the models filled the missing value with mean value:
 
+| Model                | Mean Accuracy Before Feature Selection  | Mean Accuracy After Feature Selection   |
+| -------------------- | :--------------------------------------:| :-------------------------------------: |
+| `Logistic Regression`| 0.76                                    | 0.77                                    |
+| `Decision Tree`      | 0.64                                    | 0.58                                    |
+| `Random Forest`      | 0.72                                    | 0.72                                    |
+
+Mean accuracy of the models filled the missing value with median value:
+
+| Model                | Mean Accuracy Before Feature Selection  | Mean Accuracy After Feature Selection   |
+| -------------------- | :--------------------------------------:| :-------------------------------------: |
+| `Logistic Regression`| 0.76                                    | 0.77                                    |
+| `Decision Tree`      | 0.92                                    | 0.90                                    |
+| `Random Forest`      | 0.96                                    | 0.96                                    |
+
+Mean standard deviation of the models filled the missing value with mean value:
+
+| Model                | Mean Standard Devation Before Feature Selection  | Mean Standard Deviation After Feature Selection   |
+| -------------------- | :-----------------------------------------------:| :-----------------------------------------------: |
+| `Logistic Regression`| 0.01                                             | 0.00                                              |
+| `Decision Tree`      | 0.21                                             | 0.29                                              |
+| `Random Forest`      | 0.20                                             | 0.29                                              |
+
+Mean standard deviation of the models filled the missing value with median value:
+
+| Model                | Mean Standard Devation Before Feature Selection  | Mean Standard Deviation After Feature Selection   |
+| -------------------- | :-----------------------------------------------:| :-----------------------------------------------: |
+| `Logistic Regression`| 0.01                                             | 0.01                                              |
+| `Decision Tree`      | 0.01                                             | 0.03                                              |
+| `Random Forest`      | 0.00                                             | 0.01                                              |
 
 
