@@ -62,7 +62,7 @@ Here are the visualization results for the comparison of all the models:
 
 Here are the mean accuracy score for the comparison of all the models in table form:
 
-Mean accuracy of the models filled the missing value with mean value:
+**Mean accuracy of the models filled the missing value with mean value:**
 
 | Model                | Mean Accuracy Before Feature Selection  | Mean Accuracy After Feature Selection   |
 | -------------------- | :--------------------------------------:| :-------------------------------------: |
@@ -70,7 +70,7 @@ Mean accuracy of the models filled the missing value with mean value:
 | `Decision Tree`      | 0.64                                    | 0.58                                    |
 | `Random Forest`      | 0.72                                    | 0.72                                    |
 
-Mean accuracy of the models filled the missing value with median value:
+**Mean accuracy of the models filled the missing value with median value:**
 
 | Model                | Mean Accuracy Before Feature Selection  | Mean Accuracy After Feature Selection   |
 | -------------------- | :--------------------------------------:| :-------------------------------------: |
@@ -78,7 +78,7 @@ Mean accuracy of the models filled the missing value with median value:
 | `Decision Tree`      | 0.92                                    | 0.90                                    |
 | `Random Forest`      | 0.96                                    | 0.96                                    |
 
-Mean standard deviation of the models filled the missing value with mean value:
+**Mean standard deviation of the models filled the missing value with mean value:**
 
 | Model                | Mean Standard Devation Before Feature Selection  | Mean Standard Deviation After Feature Selection   |
 | -------------------- | :-----------------------------------------------:| :-----------------------------------------------: |
@@ -86,7 +86,7 @@ Mean standard deviation of the models filled the missing value with mean value:
 | `Decision Tree`      | 0.21                                             | 0.29                                              |
 | `Random Forest`      | 0.20                                             | 0.29                                              |
 
-Mean standard deviation of the models filled the missing value with median value:
+**Mean standard deviation of the models filled the missing value with median value:**
 
 | Model                | Mean Standard Devation Before Feature Selection  | Mean Standard Deviation After Feature Selection   |
 | -------------------- | :-----------------------------------------------:| :-----------------------------------------------: |
