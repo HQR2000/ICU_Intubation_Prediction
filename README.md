@@ -57,11 +57,11 @@ Here are the visualization results for the comparison of all the models:
 
 Overall Comparison of Models Filled Missing Values with Mean Value
 
-[Comparison1](https://github.com/HQR2000/ICU_Intubation_Prediction/blob/main/results/comparison1.png)
+![Comparison1](https://github.com/HQR2000/ICU_Intubation_Prediction/blob/main/results/comparison1.png)
 
 Overall Comparison of Models Filled Missing Values with Median Value
 
-[Comparison2](https://github.com/HQR2000/ICU_Intubation_Prediction/blob/main/results/comparison2.png)
+![Comparison2](https://github.com/HQR2000/ICU_Intubation_Prediction/blob/main/results/comparison2.png)
 
 Here are the mean accuracy score for the comparison of all the models in table form:
 
