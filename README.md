@@ -60,6 +60,8 @@ Base on the overall accuracy score and mean accuracy score of all the models, we
 
 ### Visualizations
 
+---
+
 ![Comparison1](https://github.com/HQR2000/ICU_Intubation_Prediction/blob/main/results/comparison1.png)
 
 ---
