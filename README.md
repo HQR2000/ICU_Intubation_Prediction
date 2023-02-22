@@ -51,12 +51,16 @@ For each model, I replace the missing values with `mean` and `median` values res
 ## <span id='index6'>Result Analysis</span>
 After training all the models separately and record the accuracy score of each model for 20 times, I draw visualizations of the to compare the performance of all the predictive models. 
 
-The visualizations includes the overall accuracy score of all the models, the mean accuracy score comparison of all the models and the standard deviation of accuracy score of all the models. Base on the overall accuracy score and mean accuracy score of all the models, we can come up with which is the best model for predicting the patient's chance of intubation in ICU. With the standard deviation of the accuracy score all the models, we can analyze which model has a better stablity when dealing with different data.
+The visualizations includes:
+  1. The overall accuracy score of all the models. 
+  2. The mean accuracy score comparison of all the models
+  3. The standard deviation of accuracy score of all the models. 
+
+Base on the overall accuracy score and mean accuracy score of all the models, we can come up with which is the best model for predicting the patient's chance of intubation in ICU. With the standard deviation of the accuracy score all the models, we can analyze which model has a better stablity when dealing with different data.
 
 Here are the visualization results for the comparison of all the models:
 
 ![Comparison1](https://github.com/HQR2000/ICU_Intubation_Prediction/blob/main/results/comparison1.png)
-
 
 ![Comparison2](https://github.com/HQR2000/ICU_Intubation_Prediction/blob/main/results/comparison2.png)
 
