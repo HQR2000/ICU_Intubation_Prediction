@@ -80,6 +80,8 @@ Base on the overall accuracy score and mean accuracy score of all the models, we
 | `Decision Tree`      | 0.64                                    | 0.58                                    |
 | `Random Forest`      | 0.72                                    | 0.72                                    |
 
+---
+
 **Mean accuracy of the models filled the missing value with _median_ value:**
 
 | Model                | Mean Accuracy Before Feature Selection  | Mean Accuracy After Feature Selection   |
@@ -88,6 +90,8 @@ Base on the overall accuracy score and mean accuracy score of all the models, we
 | `Decision Tree`      | 0.92                                    | 0.90                                    |
 | `Random Forest`      | 0.96                                    | 0.96                                    |
 
+---
+
 **Mean standard deviation of the models filled the missing value with _mean_ value:**
 
 | Model                | Mean Standard Devation Before Feature Selection  | Mean Standard Deviation After Feature Selection   |
@@ -95,6 +99,8 @@ Base on the overall accuracy score and mean accuracy score of all the models, we
 | `Logistic Regression`| 0.01                                             | 0.00                                              |
 | `Decision Tree`      | 0.21                                             | 0.29                                              |
 | `Random Forest`      | 0.20                                             | 0.29                                              |
+
+---
 
 **Mean standard deviation of the models filled the missing value with _median_ value:**
 
