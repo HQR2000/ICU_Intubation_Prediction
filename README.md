@@ -34,7 +34,7 @@ These several steps include:
 1. Check which features are include in the dataset.
 2. Check the ratio of the `True` label to `False` label. (From this step, we noticed the dataset is **imbalanced**, therefore oversampling should be applied to the dataset to avoid overfitting)
 3. Check the ratio of missing values in each column. (For column with over `80%` missing values, we directly remove it from the dataset since it cannot provide much information for the models)
-4. Calculate the correlation between each feature. (Remove columns with over `95%` correlations to reduce the number of features)
+4. Calculate the correlation between each feature and draw the correlation heatmap. (Remove columns with over `95%` correlations to reduce the number of features)
 5. Use visualizations to check the distribution of each features. (Most of the features are not in normal distribution, which means that it will be better to use median values to replace the missing values instead of using mean values)
 
 ## <span id='index4'>Feature Selection Method</span>
