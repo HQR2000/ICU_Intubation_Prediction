@@ -9,6 +9,8 @@
 - [Feature Selection Method](#index4)
 - [Predictive Models](#index5)
 - [Result Analysis](#index6)
+  - [Visualizations](#index7)
+  - [Tables](#index8)
 
 ## <span id='index1'>Abstract</span>
 
@@ -58,7 +60,7 @@ The visualizations includes:
 
 Base on the overall accuracy score and mean accuracy score of all the models, we can come up with which is the best model for predicting the patient's chance of intubation in ICU. With the standard deviation of the accuracy score all the models, we can analyze which model has a better stablity when dealing with different data.
 
-### Visualizations
+### <span id='index7'>Visualizations</span>
 
 ---
 
@@ -68,7 +70,7 @@ Base on the overall accuracy score and mean accuracy score of all the models, we
 
 ![Comparison2](https://github.com/HQR2000/ICU_Intubation_Prediction/blob/main/results/comparison2.png)
 
-### Tables
+### <span id='index8'>Tables</span>
 
 ---
 
