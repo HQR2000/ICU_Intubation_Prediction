@@ -96,9 +96,9 @@ Base on the overall accuracy score and mean accuracy score of all the models, we
 
 ---
 
-**Mean standard deviation of the models filled the missing value with _mean_ value:**
+**Standard deviation of the models filled the missing value with _mean_ value:**
 
-| Model                | Mean Standard Devation Before Feature Selection  | Mean Standard Deviation After Feature Selection   |
+| Model                | Standard Devation Before Feature Selection  | Standard Deviation After Feature Selection   |
 | -------------------- | :-----------------------------------------------:| :-----------------------------------------------: |
 | `Logistic Regression`| 0.01                                             | 0.00                                              |
 | `Decision Tree`      | 0.21                                             | 0.29                                              |
@@ -106,9 +106,9 @@ Base on the overall accuracy score and mean accuracy score of all the models, we
 
 ---
 
-**Mean standard deviation of the models filled the missing value with _median_ value:**
+**Standard deviation of the models filled the missing value with _median_ value:**
 
-| Model                | Mean Standard Devation Before Feature Selection  | Mean Standard Deviation After Feature Selection   |
+| Model                | Standard Devation Before Feature Selection  | Standard Deviation After Feature Selection   |
 | -------------------- | :-----------------------------------------------:| :-----------------------------------------------: |
 | `Logistic Regression`| 0.01                                             | 0.01                                              |
 | `Decision Tree`      | 0.01                                             | 0.03                                              |
