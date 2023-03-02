@@ -115,3 +115,19 @@ Base on the overall accuracy score and mean accuracy score of all the models, we
 | `Random Forest`      | 0.00                                             | 0.01                                              |
 
 (The visualization results can be found in `./results` or in `./code/ICU_Intubation_Prediction.ipynb`)
+
+### Best Model
+
+Based on the mean accuracy and standard deviation of the predictive models, the best model for predicting the patient’s performance of intubation in ICU is the random forest model which filled the missing value with median value. The mean accuracy of its 20 times test is 0.96 and the standard deviation of it is 0.01. It achieves the best performance by only ask for 25 features after applying the genetic algorithm for feature selection. 
+
+### Comparison of Different Models
+
+By comparing the accuracy of all the models, it’s clear that the random forest can always achieve the best performance, followed by decision tree and then logistic regression. The main reason why logistic regression cannot achieve an accuracy more than 80% might be that this problem is not a linear separable problem, which means that it’s difficult to find a good decision boundary to separate the datapoints. Therefore, tree-based model will be more suitable for this problem because the models use information entropy for making the decisions. Besides, with ensemble learning, the random forest model can achieve a better stability than the decision tree model.
+
+### Best Way to Deal with the Missing values
+
+One phenomenon we noticed is that the accuracy of tree-based models filled missing value with mean value is extremely unstable. This is a not surprising phenomenon since in the EDA part, we notice that most of the features are not in normal distribution which means that the mean value cannot represent the population very well in this case. Therefore, there is no doubt that the models filled missing value with median value can achieve a better stability.
+
+### Feature Selection
+
+For the feature selection, the logistic regression can achieve a better performance no matter on accuracy or stability after genetic algorithm for feature selection while tree-based model might lose a little bit stability but still achieve a good mean accuracy after genetic algorithm for feature selection. In this case, although the feature selection might cause a few influences on the stability of the tree-based models, the number of features need for training decreased by half while still achieve almost the same mean accuracy. If the computing source is limited, feature selection method can be used to reduce the feature numbers. If the computing source is sufficient and the requirement is to build a model with good accuracy and stability, then the feature selection is not necessary.
